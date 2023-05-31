@@ -1,0 +1,4 @@
+﻿  prog.c
+c:\opencv\build\include\opencv2\core\types_c.h(929,20): warning C4013: 'cvRound' undefined; assuming extern returning int
+C:\Users\USER\Desktop\Magshimim_project\Magshimim_project\prog.c(16,32): warning C4047: '=': 'char' differs in levels of indirection from 'char [2]'
+  Magshimim_project.vcxproj -> C:\Users\USER\Desktop\Magshimim_project\x64\Debug\Magshimim_project.exe

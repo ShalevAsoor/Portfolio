@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\test0\OneDrive\שולחן העבודה\Magshimim_project\Magshimim_project\</FILEPATH>
+      <FILENAME>linkedList.c</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'frame'. </DESCRIPTION>
+    <FUNCTION>createFrame</FUNCTION>
+    <DECORATED>createFrame</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\test0\OneDrive\שולחן העבודה\Magshimim_project\Magshimim_project\</FILEPATH>
+        <FILENAME>linkedList.c</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'frame' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\test0\OneDrive\שולחן העבודה\Magshimim_project\Magshimim_project\</FILEPATH>
+        <FILENAME>linkedList.c</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'frame' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\test0\OneDrive\שולחן העבודה\Magshimim_project\Magshimim_project\</FILEPATH>
+      <FILENAME>linkedList.c</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'frameNode'. </DESCRIPTION>
+    <FUNCTION>createNode</FUNCTION>
+    <DECORATED>createNode</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\test0\OneDrive\שולחן העבודה\Magshimim_project\Magshimim_project\</FILEPATH>
+        <FILENAME>linkedList.c</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'frameNode' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\test0\OneDrive\שולחן העבודה\Magshimim_project\Magshimim_project\</FILEPATH>
+        <FILENAME>linkedList.c</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'frameNode' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

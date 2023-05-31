@@ -1,0 +1,124 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7FE06FC60 -il C:\\Users\\test0\\AppData\\Local\\Temp\\_CL_eecd9216ast -typedil -f view.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -I c:\\opencv\\build\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\view.obj -Fdx64\\Debug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\test0\\OneDrive\\שולחן העבודה\\Magshimim_project\\Magshimim_project -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/test0/onedrive/שולחן העבודה/magshimim_project/magshimim_project/view.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "39bb8f827378991e06695cee20dd6090"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/imgcodecs/imgcodecs_c.h"
+          },
+          "hashes": {
+            "md5": "788730bd75a1d99204e425a5d9e3d72a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/core_c.h"
+          },
+          "hashes": {
+            "md5": "d07b8d0fe16427d8642b55e5334352d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/types_c.h"
+          },
+          "hashes": {
+            "md5": "7b06788de5524cded29d62ce23fe5ca1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "md5": "ec8084a4f3dc9a8dbd02dfdf9e55241c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "md5": "aea81f75341b28751169a93c6f22df4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "md5": "821594e910ad7fc6f4989928eef56bc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/highgui/highgui_c.h"
+          },
+          "hashes": {
+            "md5": "0191a638e8a7e388573ac897ae7766d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/imgproc/imgproc_c.h"
+          },
+          "hashes": {
+            "md5": "9a0d33e064f5436f88a83faf83cbc2ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/opencv/build/include/opencv2/imgproc/types_c.h"
+          },
+          "hashes": {
+            "md5": "3118b0053f809d8d8a975021e4a69b55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/test0/onedrive/שולחן העבודה/magshimim_project/magshimim_project/view.h"
+          },
+          "hashes": {
+            "md5": "8d3f322ac9f89edb51ac8cb4e08bf363"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/test0/onedrive/שולחן העבודה/magshimim_project/magshimim_project/linkedlist.h"
+          },
+          "hashes": {
+            "md5": "852d83de832f2563854794a9907e2d1e"
+          }
+        }
+      ]
+    }
+  ]
+}
